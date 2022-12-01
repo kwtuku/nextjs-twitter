@@ -3,7 +3,7 @@ import { HomeIcon } from '@heroicons/react/24/solid'
 type Props = {
   Icon: typeof HomeIcon
   active: boolean
-  text: String
+  text: string
 }
 
 export default function SidebarMenuItem({ Icon, active, text }: Props) {
