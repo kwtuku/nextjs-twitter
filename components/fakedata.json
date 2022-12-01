@@ -1,0 +1,229 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "吉田 優斗",
+      "username": "fjlaefjajei",
+      "userImg": "https://api.lorem.space/image/face?hash=010101",
+      "img": "",
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo molestias nesciunt ipsam cumque consequatur repudiandae blanditiis obcaecati quo earum distinctio delectus fuga optio labore quasi ipsa, sapiente vero doloremque cupiditate?",
+      "timestamp": "1分"
+    },
+    {
+      "id": "2",
+      "name": "吉田 太郎",
+      "username": "rjiejav",
+      "userImg": "https://api.lorem.space/image/face?hash=020202",
+      "img": "",
+      "text": "しりとり",
+      "timestamp": "2分"
+    },
+    {
+      "id": "3",
+      "name": "松尾 結衣",
+      "username": "jifjoewnfowe",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "",
+      "text": "りんご",
+      "timestamp": "2分"
+    },
+    {
+      "id": "4",
+      "name": "前田 楓",
+      "username": "bopjgwage",
+      "userImg": "https://api.lorem.space/image/face?hash=040404",
+      "img": "",
+      "text": "ごりら",
+      "timestamp": "5分"
+    },
+    {
+      "id": "5",
+      "name": "森 結衣",
+      "username": "bpewaopeaava",
+      "userImg": "https://api.lorem.space/image/face?hash=050505",
+      "img": "https://api.lorem.space/image?hash=050505",
+      "text": "らっぱ",
+      "timestamp": "7分"
+    },
+    {
+      "id": "6",
+      "name": "小川 一郎",
+      "username": "ewinawngaaf",
+      "userImg": "https://api.lorem.space/image/face?hash=060606",
+      "img": "",
+      "text": "ぱんつ",
+      "timestamp": "8分"
+    },
+    {
+      "id": "7",
+      "name": "宮本 駿",
+      "username": "noweginaof",
+      "userImg": "https://api.lorem.space/image/face?hash=070707",
+      "img": "https://api.lorem.space/image?hash=070707",
+      "text": "",
+      "timestamp": "8分"
+    },
+    {
+      "id": "8",
+      "name": "増田 一輝",
+      "username": "eeeeeeg",
+      "userImg": "https://api.lorem.space/image/face?hash=080808",
+      "img": "",
+      "text": "つみき",
+      "timestamp": "9分"
+    },
+    {
+      "id": "9",
+      "name": "山崎 楓",
+      "username": "ggehrthwrtjw",
+      "userImg": "https://api.lorem.space/image/face?hash=090909",
+      "img": "https://api.lorem.space/image?hash=090909",
+      "text": "",
+      "timestamp": "23分"
+    },
+    {
+      "id": "10",
+      "name": "森 真央",
+      "username": "jrweorwkrwe",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "https://api.lorem.space/image?hash=101010",
+      "text": "きつね",
+      "timestamp": "23分"
+    },
+    {
+      "id": "11",
+      "name": "野口 樹",
+      "username": "rmqogrmoq",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "",
+      "text": "ねこ",
+      "timestamp": "31分"
+    },
+    {
+      "id": "12",
+      "name": "上野 大地",
+      "username": "boerbieboe",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "https://api.lorem.space/image?hash=121212",
+      "text": "",
+      "timestamp": "3時間"
+    },
+    {
+      "id": "13",
+      "name": "太田 大和",
+      "username": "peofewm",
+      "userImg": "https://api.lorem.space/image/face?hash=131313",
+      "img": "",
+      "text": "こあら",
+      "timestamp": "3時間"
+    },
+    {
+      "id": "14",
+      "name": "山本 綾乃",
+      "username": "mewgowief",
+      "userImg": "https://api.lorem.space/image/face?hash=141414",
+      "img": "https://api.lorem.space/image?hash=141414",
+      "text": "らっこ",
+      "timestamp": "5時間"
+    },
+    {
+      "id": "15",
+      "name": "高橋 一輝",
+      "username": "gewg",
+      "userImg": "https://api.lorem.space/image/face?hash=151515",
+      "img": "https://api.lorem.space/image?hash=151515",
+      "text": "",
+      "timestamp": "8時間"
+    },
+    {
+      "id": "16",
+      "name": "柴田 和子",
+      "username": "qgbvrea",
+      "userImg": "https://api.lorem.space/image/face?hash=161616",
+      "img": "https://api.lorem.space/image?hash=161616",
+      "text": "",
+      "timestamp": "9時間"
+    },
+    {
+      "id": "17",
+      "name": "池田 空",
+      "username": "htwrhrbb",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "",
+      "text": "こま",
+      "timestamp": "9時間"
+    },
+    {
+      "id": "18",
+      "name": "佐野 大輔",
+      "username": "weewgre",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "https://api.lorem.space/image?hash=181818",
+      "text": "",
+      "timestamp": "10時間"
+    },
+    {
+      "id": "19",
+      "name": "上田 駿",
+      "username": "opewopa",
+      "userImg": "https://api.lorem.space/image/face?hash=191919",
+      "img": "",
+      "text": "まいたけ",
+      "timestamp": "12時間"
+    },
+    {
+      "id": "20",
+      "name": "後藤 翼",
+      "username": "mrpqmgmomg",
+      "userImg": "https://api.lorem.space/image/face?hash=202020",
+      "img": "",
+      "text": "けいと",
+      "timestamp": "12時間"
+    },
+    {
+      "id": "21",
+      "name": "長谷川 一郎",
+      "username": "ntogoe",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "https://api.lorem.space/image?hash=212121",
+      "text": "",
+      "timestamp": "19時間"
+    },
+    {
+      "id": "22",
+      "name": "伊藤 優奈",
+      "username": "pemropw",
+      "userImg": "https://api.lorem.space/image/face?hash=222222",
+      "img": "",
+      "text": "とら",
+      "timestamp": "20時間"
+    },
+    {
+      "id": "23",
+      "name": "高木 彩乃",
+      "username": "apemglf",
+      "userImg": "https://api.lorem.space/image/face?hash=232323",
+      "img": "https://api.lorem.space/image?hash=232323",
+      "text": "",
+      "timestamp": "23時間"
+    },
+    {
+      "id": "24",
+      "name": "橋本 美桜",
+      "username": "mmrowmrww",
+      "userImg": "https://api.lorem.space/image/face?hash=242424",
+      "img": "https://api.lorem.space/image?hash=242424",
+      "text": "",
+      "timestamp": "23時間"
+    },
+    {
+      "id": "25",
+      "name": "吉田 美月",
+      "username": "zmofao",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+      "img": "",
+      "text": "らいおん",
+      "timestamp": "23時間"
+    }
+  ]
+}

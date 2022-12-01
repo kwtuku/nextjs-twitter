@@ -12,7 +12,7 @@ import { HomeIcon } from '@heroicons/react/24/solid'
 
 export default function Sidebar() {
   return (
-    <header className="flex flex-col w-56">
+    <header className="flex flex-col w-56 p-3">
       <Image
         className="hover:bg-blue-100 rounded-full"
         width="50"
@@ -40,7 +40,7 @@ export default function Sidebar() {
 
       <div className="mt-auto mb-3 flex items-center p-2 hover:bg-gray-200 rounded-full">
         <Image
-          className="rounded-full"
+          className="rounded-full w-12 h-12"
           width="50"
           height="50"
           src="https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png"
