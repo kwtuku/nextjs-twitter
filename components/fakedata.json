@@ -225,5 +225,25 @@
       "text": "らいおん",
       "timestamp": "23時間"
     }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "増田 拓海",
+      "username": "jeonrosd",
+      "userImg": "https://api.lorem.space/image/face?hash=101010"
+    },
+    {
+      "id": "2",
+      "name": "中島 恵",
+      "username": "mowww",
+      "userImg": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png"
+    },
+    {
+      "id": "3",
+      "name": "阿部 美桜",
+      "username": "gmregrds",
+      "userImg": "https://api.lorem.space/image/face?hash=303030"
+    }
   ]
 }
