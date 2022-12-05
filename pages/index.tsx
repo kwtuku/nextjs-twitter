@@ -2,13 +2,30 @@ import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 import Widgets from '../components/Widgets'
 
-export default function Home({ newsResults }) {
+type News = {
+  source: {
+    name: string
+  }
+  title: string
+  url: string
+  urlToImage: string
+}
+
+type newsResults = {
+  articles: News[]
+}
+
+type Props = {
+  newsResults: newsResults
+}
+
+export default function Home({ newsResults }: Props) {
   return (
     <div className="max-w-6xl mx-auto flex min-h-screen">
       <Sidebar />
       <main className="flex">
         <Feed />
-        <Widgets newsResults={newsResults.articles} />
+        <Widgets newsList={newsResults.articles} />
       </main>
     </div>
   )

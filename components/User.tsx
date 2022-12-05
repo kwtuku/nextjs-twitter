@@ -1,6 +1,17 @@
 import Image from 'next/image'
 
-export default function User({ user }) {
+type User = {
+  id: string
+  name: string
+  username: string
+  userImg: string
+}
+
+type Props = {
+  user: User
+}
+
+export default function User({ user }: Props) {
   return (
     <div className="p-3 flex items-center">
       <Image

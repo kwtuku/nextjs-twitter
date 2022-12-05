@@ -1,6 +1,19 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
 
-export default function News({ news }) {
+type News = {
+  source: {
+    name: string
+  }
+  title: string
+  url: string
+  urlToImage: string
+}
+
+type Props = {
+  news: News
+}
+
+export default function News({ news }: Props) {
   return (
     <a href={news.url} target="_blank" rel="noreferrer">
       <div className="p-3 flex items-center space-x-3 hover:bg-gray-200">

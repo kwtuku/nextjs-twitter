@@ -5,7 +5,20 @@ import User from './User'
 
 const users = Data.users
 
-export default function Widgets({ newsResults }) {
+type News = {
+  source: {
+    name: string
+  }
+  title: string
+  url: string
+  urlToImage: string
+}
+
+type Props = {
+  newsList: News[]
+}
+
+export default function Widgets({ newsList }: Props) {
   return (
     <div className="w-80">
       <div className="relative flex items-center p-3">
@@ -18,7 +31,7 @@ export default function Widgets({ newsResults }) {
       </div>
       <div className="bg-gray-100 rounded-xl m-3">
         <div className="p-3 text-xl font-bold">いまどうしてる？</div>
-        {newsResults.map((news, index) => (
+        {newsList.map((news, index: number) => (
           <News key={index} news={news} />
         ))}
         <div className="p-3">さらに表示</div>
