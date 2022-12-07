@@ -25,6 +25,7 @@ export default function News({ news }: Props) {
           <div className="font-bold">{news.title}</div>
         </div>
         {news.urlToImage && (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             className="h-12 w-12 object-cover rounded-xl"
             src={news.urlToImage}
