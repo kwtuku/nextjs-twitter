@@ -32,12 +32,15 @@ export default function Home({ newsResults }: Props) {
 }
 
 export async function getServerSideProps() {
-  const newsResults = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=jp&apiKey=${process.env.NEWS_API_KEY}&pageSize=5`
-  ).then((res) => res.json())
+  const apiKey = process.env.NEWS_API_KEY || ''
+  const url = `https://newsapi.org/v2/top-headlines?country=jp&pageSize=5&apiKey=${apiKey}`
+  const res = await fetch(url)
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+  const newsResults = await res.json() // TODO: 型
 
   return {
     props: {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       newsResults,
     },
   }
