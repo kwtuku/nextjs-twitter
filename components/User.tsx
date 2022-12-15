@@ -11,7 +11,7 @@ type Props = {
   user: User
 }
 
-export default function User({ user }: Props) {
+const User = ({ user }: Props) => {
   return (
     <div className="p-3 flex items-center">
       <Image
@@ -31,3 +31,4 @@ export default function User({ user }: Props) {
     </div>
   )
 }
+export default User

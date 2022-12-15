@@ -5,7 +5,7 @@ import Post from './Post'
 
 const posts = Data.posts
 
-export default function Feed() {
+const Feed = () => {
   return (
     <div className="w-[35rem] border-l border-r h-full">
       <div className="flex items-center p-3">
@@ -19,3 +19,4 @@ export default function Feed() {
     </div>
   )
 }
+export default Feed

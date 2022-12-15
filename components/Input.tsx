@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FaceSmileIcon, PhotoIcon } from '@heroicons/react/24/outline'
 
-export default function Input() {
+const Input = () => {
   return (
     <div className="flex space-x-3 p-3 pt-0 border-b">
       <div className="shrink-0">
@@ -31,3 +31,4 @@ export default function Input() {
     </div>
   )
 }
+export default Input

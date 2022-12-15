@@ -21,7 +21,7 @@ type Props = {
   post: Post
 }
 
-export default function Post({ post }: Props) {
+const Post = ({ post }: Props) => {
   return (
     <div className="flex space-x-3 p-3 border-b">
       <div className="shrink-0">
@@ -63,3 +63,4 @@ export default function Post({ post }: Props) {
     </div>
   )
 }
+export default Post

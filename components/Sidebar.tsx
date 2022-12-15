@@ -10,7 +10,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { HomeIcon } from '@heroicons/react/24/solid'
 
-export default function Sidebar() {
+const Sidebar = () => {
   return (
     <header className="flex flex-col w-56 p-3">
       <Image
@@ -55,3 +55,4 @@ export default function Sidebar() {
     </header>
   )
 }
+export default Sidebar

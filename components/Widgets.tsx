@@ -5,7 +5,7 @@ import User from './User'
 
 const users = Data.users
 
-type News = {
+type NewsType = {
   source: {
     name: string
   }
@@ -15,10 +15,10 @@ type News = {
 }
 
 type Props = {
-  newsList: News[]
+  newsList: NewsType[]
 }
 
-export default function Widgets({ newsList }: Props) {
+const Widgets = ({ newsList }: Props) => {
   return (
     <div className="w-80">
       <div className="relative flex items-center p-3">
@@ -46,3 +46,4 @@ export default function Widgets({ newsList }: Props) {
     </div>
   )
 }
+export default Widgets

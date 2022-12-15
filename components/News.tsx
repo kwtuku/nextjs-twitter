@@ -13,7 +13,7 @@ type Props = {
   news: News
 }
 
-export default function News({ news }: Props) {
+const News = ({ news }: Props) => {
   return (
     <a href={news.url} target="_blank" rel="noreferrer">
       <div className="p-3 flex items-center space-x-3 hover:bg-gray-200">
@@ -36,3 +36,4 @@ export default function News({ news }: Props) {
     </a>
   )
 }
+export default News
