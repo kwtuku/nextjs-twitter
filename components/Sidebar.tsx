@@ -12,7 +12,7 @@ import { HomeIcon } from '@heroicons/react/24/solid'
 
 const Sidebar = () => {
   return (
-    <header className="flex flex-col w-56 p-3">
+    <header className="flex flex-col w-56 p-3 h-screen fixed">
       <Image
         className="hover:bg-blue-100 rounded-full"
         width="50"
