@@ -17,7 +17,7 @@ const Input = () => {
         <textarea
           className="w-full border-none focus:ring-0"
           placeholder="いまどうしてる？"
-        ></textarea>
+        />
         <div className="mt-3 flex items-center">
           <div className="flex items-center space-x-2">
             <PhotoIcon className="h-10 w-10 p-2 rounded-full text-blue-500 hover:bg-blue-100" />
