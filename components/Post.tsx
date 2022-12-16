@@ -33,6 +33,7 @@ const Post = ({ post }: Props) => {
           alt={post.name}
         />
       </div>
+
       <div className="grow">
         <div className="flex items-center">
           <div className="flex space-x-1">
@@ -43,6 +44,7 @@ const Post = ({ post }: Props) => {
           </div>
           <EllipsisHorizontalIcon className="ml-auto h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
         </div>
+
         <div>{post.text}</div>
         {post.img && (
           <Image
@@ -53,6 +55,7 @@ const Post = ({ post }: Props) => {
             alt="画像"
           />
         )}
+
         <div className="mt-3 flex space-x-20">
           <ChatBubbleOvalLeftIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
           <ArrowPathRoundedSquareIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-teal-500 hover:bg-teal-100" />

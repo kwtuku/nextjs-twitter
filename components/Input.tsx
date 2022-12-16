@@ -13,6 +13,7 @@ const Input = () => {
           alt="名前"
         />
       </div>
+
       <div className="grow">
         <textarea
           className="w-full border-none focus:ring-0"

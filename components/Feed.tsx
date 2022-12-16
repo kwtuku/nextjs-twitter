@@ -12,7 +12,9 @@ const Feed = () => {
         <h1 className="font-bold">最新ツイート</h1>
         <SparklesIcon className="ml-auto h-10 w-10 p-2 rounded-full hover:bg-gray-200" />
       </div>
+
       <Input />
+
       {posts.map((post) => (
         <Post key={post.id} post={post} />
       ))}

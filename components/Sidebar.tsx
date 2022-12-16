@@ -46,10 +46,12 @@ const Sidebar = () => {
           src="https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png"
           alt="名前"
         />
+
         <div className="ml-3">
           <div className="font-bold">名前</div>
           <div className="text-gray-500">@username</div>
         </div>
+
         <EllipsisHorizontalIcon className="ml-auto h-7" />
       </div>
     </header>

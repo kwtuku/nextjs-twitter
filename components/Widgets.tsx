@@ -31,6 +31,7 @@ const Widgets = ({ newsList }: Props) => {
           />
         </div>
       </div>
+
       <div className="bg-gray-100 rounded-xl m-3">
         <div className="p-3 text-xl font-bold">いまどうしてる？</div>
         {newsList.map((news, index: number) => (
@@ -38,6 +39,7 @@ const Widgets = ({ newsList }: Props) => {
         ))}
         <div className="p-3">さらに表示</div>
       </div>
+
       <div className="sticky top-[66px]">
         <div className="bg-gray-100 rounded-xl m-3">
           <div className="p-3 text-xl font-bold">おすすめユーザー</div>

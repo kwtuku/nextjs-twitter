@@ -21,10 +21,12 @@ const User = ({ user }: Props) => {
         src={user.userImg}
         alt={user.name}
       />
+
       <div className="ml-3">
         <div className="font-bold">{user.name}</div>
         <div className="text-gray-500">@{user.username}</div>
       </div>
+
       <button className="ml-auto bg-slate-900 text-white font-bold rounded-full py-2 px-6 shadow-md hover:brightness-95">
         フォロー
       </button>
