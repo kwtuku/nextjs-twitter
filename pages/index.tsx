@@ -33,7 +33,7 @@ const Home = ({ newsResults }: Props) => {
 export default Home
 
 export const getServerSideProps = async () => {
-  const apiKey = process.env.NEWS_API_KEY || ''
+  const apiKey = process.env.NEWS_API_KEY
   const url = `https://newsapi.org/v2/top-headlines?country=jp&pageSize=5&apiKey=${apiKey}`
   const res = await fetch(url)
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
