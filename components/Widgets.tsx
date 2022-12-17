@@ -2,17 +2,9 @@ import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import News from './News'
 import Data from './fakedata.json'
 import User from './User'
+import { News as NewsType } from '../interfaces'
 
 const users = Data.users
-
-type NewsType = {
-  source: {
-    name: string
-  }
-  title: string
-  url: string
-  urlToImage: string
-}
 
 type Props = {
   newsList: NewsType[]

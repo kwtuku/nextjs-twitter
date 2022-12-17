@@ -1,22 +1,10 @@
 import Feed from '../components/Feed'
 import Sidebar from '../components/Sidebar'
 import Widgets from '../components/Widgets'
-
-type News = {
-  source: {
-    name: string
-  }
-  title: string
-  url: string
-  urlToImage: string
-}
-
-type newsResults = {
-  articles: News[]
-}
+import { NewsResults } from '../interfaces'
 
 type Props = {
-  newsResults: newsResults
+  newsResults: NewsResults
 }
 
 const Home = ({ newsResults }: Props) => {

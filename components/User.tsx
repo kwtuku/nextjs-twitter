@@ -1,11 +1,5 @@
 import Image from 'next/image'
-
-type User = {
-  id: string
-  name: string
-  username: string
-  userImg: string
-}
+import { User } from '../interfaces'
 
 type Props = {
   user: User

@@ -6,16 +6,7 @@ import {
   EllipsisHorizontalIcon,
   HeartIcon,
 } from '@heroicons/react/24/outline'
-
-type Post = {
-  id: string
-  name: string
-  username: string
-  userImg: string
-  img: string
-  text: string
-  timestamp: string
-}
+import { Post } from '../interfaces'
 
 type Props = {
   post: Post

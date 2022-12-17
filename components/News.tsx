@@ -1,13 +1,5 @@
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline'
-
-type News = {
-  source: {
-    name: string
-  }
-  title: string
-  url: string
-  urlToImage: string
-}
+import { News } from '../interfaces'
 
 type Props = {
   news: News
