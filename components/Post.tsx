@@ -6,22 +6,13 @@ import {
   EllipsisHorizontalIcon,
   HeartIcon,
 } from '@heroicons/react/24/outline'
-
-type Post = {
-  id: string
-  name: string
-  username: string
-  userImg: string
-  img: string
-  text: string
-  timestamp: string
-}
+import { Post } from '../interfaces'
 
 type Props = {
   post: Post
 }
 
-export default function Post({ post }: Props) {
+const Post = ({ post }: Props) => {
   return (
     <div className="flex space-x-3 p-3 border-b">
       <div className="shrink-0">
@@ -33,6 +24,7 @@ export default function Post({ post }: Props) {
           alt={post.name}
         />
       </div>
+
       <div className="grow">
         <div className="flex items-center">
           <div className="flex space-x-1">
@@ -43,6 +35,7 @@ export default function Post({ post }: Props) {
           </div>
           <EllipsisHorizontalIcon className="ml-auto h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
         </div>
+
         <div>{post.text}</div>
         {post.img && (
           <Image
@@ -53,6 +46,7 @@ export default function Post({ post }: Props) {
             alt="画像"
           />
         )}
+
         <div className="mt-3 flex space-x-20">
           <ChatBubbleOvalLeftIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
           <ArrowPathRoundedSquareIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-teal-500 hover:bg-teal-100" />
@@ -63,3 +57,4 @@ export default function Post({ post }: Props) {
     </div>
   )
 }
+export default Post

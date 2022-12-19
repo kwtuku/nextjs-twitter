@@ -1,17 +1,11 @@
 import Image from 'next/image'
-
-type User = {
-  id: string
-  name: string
-  username: string
-  userImg: string
-}
+import { User } from '../interfaces'
 
 type Props = {
   user: User
 }
 
-export default function User({ user }: Props) {
+const User = ({ user }: Props) => {
   return (
     <div className="p-3 flex items-center">
       <Image
@@ -21,13 +15,16 @@ export default function User({ user }: Props) {
         src={user.userImg}
         alt={user.name}
       />
+
       <div className="ml-3">
         <div className="font-bold">{user.name}</div>
         <div className="text-gray-500">@{user.username}</div>
       </div>
+
       <button className="ml-auto bg-slate-900 text-white font-bold rounded-full py-2 px-6 shadow-md hover:brightness-95">
         フォロー
       </button>
     </div>
   )
 }
+export default User

@@ -10,9 +10,9 @@ import {
 } from '@heroicons/react/24/outline'
 import { HomeIcon } from '@heroicons/react/24/solid'
 
-export default function Sidebar() {
+const Sidebar = () => {
   return (
-    <header className="flex flex-col w-56 p-3">
+    <header className="flex flex-col w-56 p-3 h-screen fixed">
       <Image
         className="hover:bg-blue-100 rounded-full"
         width="50"
@@ -46,12 +46,15 @@ export default function Sidebar() {
           src="https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png"
           alt="名前"
         />
+
         <div className="ml-3">
           <div className="font-bold">名前</div>
           <div className="text-gray-500">@username</div>
         </div>
+
         <EllipsisHorizontalIcon className="ml-auto h-7" />
       </div>
     </header>
   )
 }
+export default Sidebar

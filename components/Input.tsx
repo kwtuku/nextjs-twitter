@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { FaceSmileIcon, PhotoIcon } from '@heroicons/react/24/outline'
 
-export default function Input() {
+const Input = () => {
   return (
     <div className="flex space-x-3 p-3 pt-0 border-b">
       <div className="shrink-0">
@@ -13,11 +13,12 @@ export default function Input() {
           alt="名前"
         />
       </div>
+
       <div className="grow">
         <textarea
           className="w-full border-none focus:ring-0"
           placeholder="いまどうしてる？"
-        ></textarea>
+        />
         <div className="mt-3 flex items-center">
           <div className="flex items-center space-x-2">
             <PhotoIcon className="h-10 w-10 p-2 rounded-full text-blue-500 hover:bg-blue-100" />
@@ -31,3 +32,4 @@ export default function Input() {
     </div>
   )
 }
+export default Input
