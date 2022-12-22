@@ -12,6 +12,7 @@ module.exports = {
   },
   root: true,
   rules: {
+    'import/order': ['error', { alphabetize: { order: 'asc' } }],
     'no-console': 'error',
   },
 }
