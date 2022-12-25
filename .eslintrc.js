@@ -5,6 +5,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/recommended',
     'plugin:import/typescript',
+    'plugin:jsx-a11y/recommended',
     'next/core-web-vitals',
     'prettier',
   ],
