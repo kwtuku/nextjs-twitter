@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import SidebarMenuItem from './SidebarMenuItem'
 import {
   BellIcon,
   EllipsisHorizontalCircleIcon,
@@ -9,6 +7,8 @@ import {
   UserIcon,
 } from '@heroicons/react/24/outline'
 import { HomeIcon } from '@heroicons/react/24/solid'
+import Image from 'next/image'
+import SidebarMenuItem from './SidebarMenuItem'
 
 const Sidebar = () => {
   return (

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import {
   ArrowPathRoundedSquareIcon,
   ArrowUpOnSquareIcon,
@@ -6,6 +5,7 @@ import {
   EllipsisHorizontalIcon,
   HeartIcon,
 } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 import { Post } from '../interfaces'
 
 type Props = {

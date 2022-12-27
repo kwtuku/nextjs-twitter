@@ -1,8 +1,8 @@
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
-import News from './News'
-import Data from './fakedata.json'
-import User from './User'
 import { News as NewsType } from '../interfaces'
+import News from './News'
+import User from './User'
+import Data from './fakedata.json'
 
 const users = Data.users
 

@@ -1,7 +1,7 @@
 import { SparklesIcon } from '@heroicons/react/24/outline'
-import Data from './fakedata.json'
 import Input from './Input'
 import Post from './Post'
+import Data from './fakedata.json'
 
 const posts = Data.posts
 
