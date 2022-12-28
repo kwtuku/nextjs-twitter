@@ -7,9 +7,9 @@ type Props = {
 
 const User = ({ user }: Props) => {
   return (
-    <div className="p-3 flex items-center">
+    <div className="flex items-center p-3">
       <Image
-        className="rounded-full w-12 h-12 object-cover"
+        className="h-12 w-12 rounded-full object-cover"
         width="50"
         height="50"
         src={user.userImg}
@@ -21,7 +21,7 @@ const User = ({ user }: Props) => {
         <div className="text-gray-500">@{user.username}</div>
       </div>
 
-      <button className="ml-auto bg-slate-900 text-white font-bold rounded-full py-2 px-6 shadow-md hover:brightness-95">
+      <button className="ml-auto rounded-full bg-slate-900 py-2 px-6 font-bold text-white shadow-md hover:brightness-95">
         フォロー
       </button>
     </div>

@@ -9,9 +9,9 @@ type Props = {
 
 const Home = ({ newsResults }: Props) => {
   return (
-    <div className="max-w-6xl mx-auto flex">
+    <div className="mx-auto flex max-w-6xl">
       <Sidebar />
-      <main className="flex ml-56">
+      <main className="ml-56 flex">
         <Feed />
         <Widgets newsList={newsResults.articles} />
       </main>
