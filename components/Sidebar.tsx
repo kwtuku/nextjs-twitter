@@ -57,4 +57,5 @@ const Sidebar = () => {
     </header>
   )
 }
+
 export default Sidebar

@@ -27,4 +27,5 @@ const User = ({ user }: Props) => {
     </div>
   )
 }
+
 export default User

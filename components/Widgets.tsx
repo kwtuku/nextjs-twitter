@@ -44,4 +44,5 @@ const Widgets = ({ newsList }: Props) => {
     </div>
   )
 }
+
 export default Widgets

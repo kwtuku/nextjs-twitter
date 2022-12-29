@@ -28,4 +28,5 @@ const News = ({ news }: Props) => {
     </a>
   )
 }
+
 export default News

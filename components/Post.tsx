@@ -57,4 +57,5 @@ const Post = ({ post }: Props) => {
     </div>
   )
 }
+
 export default Post

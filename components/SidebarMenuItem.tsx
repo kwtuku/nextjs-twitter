@@ -14,4 +14,5 @@ const SidebarMenuItem = ({ Icon, active, text }: Props) => {
     </div>
   )
 }
+
 export default SidebarMenuItem

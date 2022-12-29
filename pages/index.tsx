@@ -18,6 +18,7 @@ const Home = ({ newsResults }: Props) => {
     </div>
   )
 }
+
 export default Home
 
 export const getServerSideProps = async () => {
