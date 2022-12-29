@@ -9,15 +9,16 @@ type Props = {
 
 const Home = ({ newsResults }: Props) => {
   return (
-    <div className="max-w-6xl mx-auto flex">
+    <div className="mx-auto flex max-w-6xl">
       <Sidebar />
-      <main className="flex ml-56">
+      <main className="ml-56 flex">
         <Feed />
         <Widgets newsList={newsResults.articles} />
       </main>
     </div>
   )
 }
+
 export default Home
 
 export const getServerSideProps = async () => {
@@ -25,11 +26,10 @@ export const getServerSideProps = async () => {
   const url = `https://newsapi.org/v2/top-headlines?country=jp&pageSize=5&apiKey=${apiKey}`
   const res = await fetch(url)
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-  const newsResults = await res.json() // TODO: 型
+  const newsResults: NewsResults = await res.json() // TODO: Unsafe assignment of an `any` value. を解消する
 
   return {
     props: {
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       newsResults,
     },
   }

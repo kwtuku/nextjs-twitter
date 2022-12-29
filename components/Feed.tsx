@@ -7,10 +7,10 @@ const posts = Data.posts
 
 const Feed = () => {
   return (
-    <div className="w-[35rem] border-l border-r h-full">
-      <div className="sticky top-0 bg-white flex items-center p-3">
+    <div className="h-full w-[35rem] border-l border-r">
+      <div className="sticky top-0 flex items-center bg-white p-3">
         <h1 className="font-bold">最新ツイート</h1>
-        <SparklesIcon className="ml-auto h-10 w-10 p-2 rounded-full hover:bg-gray-200" />
+        <SparklesIcon className="ml-auto h-10 w-10 rounded-full p-2 hover:bg-gray-200" />
       </div>
 
       <Input />
@@ -21,4 +21,5 @@ const Feed = () => {
     </div>
   )
 }
+
 export default Feed

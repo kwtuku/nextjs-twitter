@@ -15,16 +15,16 @@ const Widgets = ({ newsList }: Props) => {
     <div className="w-80">
       <div className="sticky top-0 bg-white">
         <div className="relative flex items-center p-3">
-          <MagnifyingGlassIcon className="absolute h-5 ml-3" />
+          <MagnifyingGlassIcon className="absolute ml-3 h-5" />
           <input
             type="text"
             placeholder="キーワード検索"
-            className="pl-10 rounded-full w-full"
+            className="w-full rounded-full pl-10"
           />
         </div>
       </div>
 
-      <div className="bg-gray-100 rounded-xl m-3">
+      <div className="m-3 rounded-xl bg-gray-100">
         <div className="p-3 text-xl font-bold">いまどうしてる？</div>
         {newsList.map((news, index: number) => (
           <News key={index} news={news} />
@@ -33,7 +33,7 @@ const Widgets = ({ newsList }: Props) => {
       </div>
 
       <div className="sticky top-[66px]">
-        <div className="bg-gray-100 rounded-xl m-3">
+        <div className="m-3 rounded-xl bg-gray-100">
           <div className="p-3 text-xl font-bold">おすすめユーザー</div>
           {users.map((user) => (
             <User key={user.id} user={user} />
@@ -44,4 +44,5 @@ const Widgets = ({ newsList }: Props) => {
     </div>
   )
 }
+
 export default Widgets

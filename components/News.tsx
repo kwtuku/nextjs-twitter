@@ -8,7 +8,7 @@ type Props = {
 const News = ({ news }: Props) => {
   return (
     <a href={news.url} target="_blank" rel="noreferrer">
-      <div className="p-3 flex items-center space-x-3 hover:bg-gray-200">
+      <div className="flex items-center space-x-3 p-3 hover:bg-gray-200">
         <div>
           <div className="flex items-center space-x-3 text-gray-500">
             <div>{news.source.name}</div>
@@ -19,7 +19,7 @@ const News = ({ news }: Props) => {
         {news.urlToImage && (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            className="h-12 w-12 object-cover rounded-xl"
+            className="h-12 w-12 rounded-xl object-cover"
             src={news.urlToImage}
             alt={news.title}
           />
@@ -28,4 +28,5 @@ const News = ({ news }: Props) => {
     </a>
   )
 }
+
 export default News

@@ -14,10 +14,10 @@ type Props = {
 
 const Post = ({ post }: Props) => {
   return (
-    <div className="flex space-x-3 p-3 border-b">
+    <div className="flex space-x-3 border-b p-3">
       <div className="shrink-0">
         <Image
-          className="rounded-full w-12 h-12 object-cover"
+          className="h-12 w-12 rounded-full object-cover"
           width="50"
           height="50"
           src={post.userImg}
@@ -33,7 +33,7 @@ const Post = ({ post }: Props) => {
             <div className="text-gray-500">･</div>
             <div className="text-gray-500">{post.timestamp}</div>
           </div>
-          <EllipsisHorizontalIcon className="ml-auto h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
+          <EllipsisHorizontalIcon className="ml-auto h-10 w-10 rounded-full p-2 text-gray-500 hover:bg-blue-100 hover:text-blue-500" />
         </div>
 
         <div>{post.text}</div>
@@ -48,13 +48,14 @@ const Post = ({ post }: Props) => {
         )}
 
         <div className="mt-3 flex space-x-20">
-          <ChatBubbleOvalLeftIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
-          <ArrowPathRoundedSquareIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-teal-500 hover:bg-teal-100" />
-          <HeartIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-red-500 hover:bg-red-100" />
-          <ArrowUpOnSquareIcon className="h-10 w-10 p-2 rounded-full text-gray-500 hover:text-blue-500 hover:bg-blue-100" />
+          <ChatBubbleOvalLeftIcon className="h-10 w-10 rounded-full p-2 text-gray-500 hover:bg-blue-100 hover:text-blue-500" />
+          <ArrowPathRoundedSquareIcon className="h-10 w-10 rounded-full p-2 text-gray-500 hover:bg-teal-100 hover:text-teal-500" />
+          <HeartIcon className="h-10 w-10 rounded-full p-2 text-gray-500 hover:bg-red-100 hover:text-red-500" />
+          <ArrowUpOnSquareIcon className="h-10 w-10 rounded-full p-2 text-gray-500 hover:bg-blue-100 hover:text-blue-500" />
         </div>
       </div>
     </div>
   )
 }
+
 export default Post

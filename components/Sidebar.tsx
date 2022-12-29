@@ -12,9 +12,9 @@ import SidebarMenuItem from './SidebarMenuItem'
 
 const Sidebar = () => {
   return (
-    <header className="flex flex-col w-56 p-3 h-screen fixed">
+    <header className="fixed flex h-screen w-56 flex-col p-3">
       <Image
-        className="hover:bg-blue-100 rounded-full"
+        className="rounded-full hover:bg-blue-100"
         width="50"
         height="50"
         src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png"
@@ -34,13 +34,13 @@ const Sidebar = () => {
         />
       </nav>
 
-      <button className="bg-blue-400 text-white font-bold rounded-full p-2 shadow-md hover:brightness-95">
+      <button className="rounded-full bg-blue-400 p-2 font-bold text-white shadow-md hover:brightness-95">
         ツイートする
       </button>
 
-      <div className="mt-auto mb-3 flex items-center p-2 hover:bg-gray-200 rounded-full">
+      <div className="mt-auto mb-3 flex items-center rounded-full p-2 hover:bg-gray-200">
         <Image
-          className="rounded-full w-12 h-12"
+          className="h-12 w-12 rounded-full"
           width="50"
           height="50"
           src="https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png"
@@ -57,4 +57,5 @@ const Sidebar = () => {
     </header>
   )
 }
+
 export default Sidebar
